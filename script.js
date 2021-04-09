@@ -58,13 +58,13 @@ function photos(){
 
 function scrollFunction() {
   if (document.body.scrollTop > 74.5 || document.documentElement.scrollTop > 74.5) {
-    document.getElementById("text").style.display = "flex";
+    // document.getElementById("text").style.display = "flex";
     document.getElementById("img").height = "60";
     document.getElementById("header").style.marginRight = "-21px";
     document.getElementById("header").style.marginLeft = "-21px";
     document.getElementById("header").style.boxShadow = "#00ff0080 0px 5px 4px 0px";
   } else {
-    document.getElementById("text").style.display = "block";
+    // document.getElementById("text").style.display = "block";
     document.getElementById("img").height = "100";
     document.getElementById("header").style.marginRight = "0px";
     document.getElementById("header").style.marginLeft = "0px";
