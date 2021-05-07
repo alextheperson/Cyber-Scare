@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
   transform: translateY(-50%);
 }
 
-p, a, b, i, u, strike, ul, ol, li, sup, bolder, question, main {
+p, a, b, i, u, strike, ul, ol, li, sup, bolder, question, main, .no-border {
   border: none;
 }
 p {
